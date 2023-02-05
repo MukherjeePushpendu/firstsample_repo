@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.parent {
+    position: relative;/**with repect to parent **/
+    background-color: #362222;
+    width: 300px;
+    height: 300px;
+}
+
+.child {
+    position: absolute;/**  when u don't want the defalt  with respect child   **/
+    display: inline-block;
+    background-color: #fdd2bf;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    bottom: 0;
+    right: 0;
+}
